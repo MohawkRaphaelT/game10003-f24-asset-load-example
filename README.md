@@ -1,0 +1,1 @@
+# game10003-f24-asset-load-example
