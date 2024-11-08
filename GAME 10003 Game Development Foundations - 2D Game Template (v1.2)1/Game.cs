@@ -21,10 +21,10 @@ namespace Game10003
             Window.SetTitle("Load Asset Example");
             Window.SetSize(400, 400);
 
-            string filePath =
-                "C:\\Users\\000906269\\source\\repos\\game10003-f24-asset-load-example\\" +
-                "GAME 10003 Game Development Foundations - 2D Game Template (v1.2)1\\" +
-                "character.png";
+            string cwd = System.IO.Directory.GetCurrentDirectory();
+            Console.WriteLine(cwd);
+
+            string filePath = "../../../../assets/images/character.png";
             texture = Graphics.LoadTexture(filePath);
         }
 
